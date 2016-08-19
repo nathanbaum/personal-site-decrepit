@@ -1,0 +1,148 @@
+body{
+  font-family: arial;
+  color: #d9d9d9;
+  background-color: black;
+  background-image: url(assets/aroura.jpg);
+  background-size: cover;
+}
+
+#menu ul{
+  margin-left: 17%;
+}
+
+#menu li{
+  margin-top: 25px;
+  margin-right: 15%;
+  display: inline-block;
+}
+
+#menu a{
+  text-transform: uppercase;
+  background-color: rgba(64, 64, 64, 0.5);
+  padding: 5px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #d9d9d9;
+  transition: .3s;
+}
+
+#menu a:hover{
+  background-color: rgba(64, 64, 64, 1);
+}
+
+#banner{
+  margin-left: 30%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*/////////////////
+section properties
+/////////////////*/
+
+.section{
+  width: 60%;
+  margin: auto;
+  margin-top: 25px;
+  background-color: rgba(64, 64, 64, 0.5);
+  border-radius: 5px;
+  position: relative;
+}
+
+.section h1{
+  padding-top: 2%;
+  margin-left: 5%;
+}
+
+.section h2{
+  margin-left: 10%;
+}
+
+.section p{
+  margin-left: 15%;
+  margin-right: 10%;
+  padding-bottom: 5%;
+}
+
+.section a{
+  background-color: rgba(64, 64, 64, 0.5);
+  padding: 5px;
+  text-decoration: none;
+  color: #d9d9d9;
+  transition: .3s;
+}
+
+.section a:hover{
+  background-color: rgba(64, 64, 64, 0.80);
+}
+
+/*////////////////////
+imgSpread properties
+////////////////////*/
+
+#imgSpread{
+  text-align: center;
+  margin-left: 20%;
+}
+
+#imgSpread li{
+  display: inline;
+}
+
+#imgSpread img{
+  position: sticky;
+  max-width: 15%;
+  opacity: .5;
+  vertical-align: middle;
+}
+
+/*//////////////////
+slideshow properties
+//////////////////*/
+
+.slideshow{
+  height: 400px;
+}
+
+.slideshow .slide{
+  display: none;
+}
+
+.slideshow .slide img{
+  display: block;
+  margin: auto;
+  max-height: 80%;
+  max-width: 70%;
+}
+
+.slideshow .slide p{
+  text-align: center;
+}
+
+/*///////////////
+button properties
+///////////////*/
+
+.slideshow div{
+  display: inline-block;
+  cursor: pointer;
+  cursor: hand;
+  font-size: 2em;
+  transition: .3s;
+}
+
+#leftBtn{
+  position: absolute;
+  top: 200px;
+  left: 80px;
+}
+
+#rightBtn{
+  position: absolute;
+  top: 200px;
+  right: 80px;
+}
+
+.slideshow div:hover{
+  color: grey;
+}

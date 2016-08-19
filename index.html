@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>Nathan Baum</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="icon" href="assets/icon.png">
+  </head>
+
+  <body>
+    <div id="menu">
+      <ul>
+        <li><a href="#bio">who i am</a></li>
+        <li><a href="#work">what i do</a></li>
+        <li><a href="#contact">contact me</a></li>
+      </ul>
+    </div>
+
+    <div id="banner">
+      <h1>
+        <p>hi,</p>
+        <p>i'm nathan</p>
+      </h1>
+    </div>
+
+    <a name="bio"></a>
+    <div class="section" id="bio">
+      <h1>who i am</h1>
+      <div id="imgSpread">
+        <li><img class="overlay" src=assets/nathan1.jpg></li>
+        <li><img class="overlay" src=assets/nathan2.jpg></li>
+        <li><img class="overlay" src=assets/nathan3.jpg></li>
+        <li><img class="overlay" src=assets/nathan4.jpg></li>
+        <li><img class="overlay" src=assets/nathan5.jpg></li>
+        <li><img class="overlay" src=assets/nathan6.jpg></li>
+      </div>
+      <script>offsetImgSpread()</script>
+      <p>
+        I'm a computer science student at NYU, but I have <strong>LOTS</strong> of interests! I am also an e-board member of the university's mock trial team. I am 19 years old, and currently a full time student. In my spare time I like to learn new things, make calligraphy, and work on fun side projects. Scroll down to see the kinds of work that I have done.
+      </p>
+    </div>
+
+    <a name="work"></a>
+    <div class="section" id="work">
+      <h1>what i do</h1>
+      <div class="slideshow">
+        <div id="leftBtn" onclick="plusSlide(-1)">&#10094;</div>
+        <div id="rightBtn" onclick="plusSlide(1)">&#10095;</div>
+        <li class="slide">
+          <img src="assets/Website Screenshot.png">
+          <p>This website!</p>
+        </li>
+        <li class="slide">
+          <img src="assets/mockPage.png">
+          <p>I designed a webpage for my team too.</p>
+        </li>
+        <li class="slide">
+          <img src="assets/mock.jpeg">
+          <p>My mock trial team after Yale invitational.</p>
+        </li>
+        <script>showSlide(0)</script>
+      </div>
+      <p>I am an eclectically interested developer living, working, and studying in New York. I interned at McKinsey & Company's IT department from June to August of 2016, developing and evaluating technical solutions, interpreting and analyzing data. I am also heavily involved in the leadership of my University's Mock Trial team, ranked 5th in the nation. As the team's Director of Personnel I ensure that our competitors are performing to the rigorous standard that NYU Mock Trial sets. Scroll down to view my contact information.</p>
+    </div>
+
+    <a name="contact"></a>
+    <div class="section" id="contact">
+      <h1>contact me</h1>
+      <h2>Profiles:</h2>
+      <p>
+        Github:
+        <a href="https://github.com/nathanbaum">github.com/nathanbaum</a>
+      </p>
+      <p>
+        Facebook:
+        <a href="https://www.facebook.com/nathan.l.baum">facebook.com/nathan.l.baum</a>
+      </p>
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/nathaniel-baum-8867b6126">linkedin.com/in/nathaniel-baum-8867b6126</a>
+      </p>
+      <h2>Email:</h2>
+      <p>
+        University:
+        <a href="mailto:nb2255@nyu.edu">nb2255@nyu.edu</a>
+      </p>
+      <p>
+        Personal:
+        <a href="mailto:nathanlbaum@gmail.com">nathanlbaum@gmail.com</a>
+      </p>
+      <p>
+        Note: Please be considerate with my contact information. As this is a public site, I realize that my information has the potential to be used in ways that I probably would not appreciate. I ask that you consider my privacy when using or distributing this information.
+      </p>
+    </div>
+  </body>
+</html>
